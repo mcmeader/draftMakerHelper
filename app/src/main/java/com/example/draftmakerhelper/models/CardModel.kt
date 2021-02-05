@@ -1,0 +1,33 @@
+package com.example.draftmakerhelper.models
+
+data class CardModel(
+    val clues_fixed: Boolean,
+    val code: String,
+    val deck_limit: Int,
+    val double_sided: Boolean,
+    val exceptional: Boolean,
+    val exile: Boolean,
+    val faction_code: String,
+    val faction_name: String,
+    val health_per_investigator: Boolean,
+    val hidden: Boolean,
+    val is_unique: Boolean,
+    val myriad: Boolean,
+    val name: String,
+    val pack_code: String,
+    val pack_name: String,
+    val permanent: Boolean,
+    val position: Int,
+    val quantity: Int,
+    val real_name: String,
+    val real_slot: String,
+    val real_text: String,
+    val real_traits: String,
+    val subtype_code: String,
+    val subtype_name: String,
+    val text: String,
+    val traits: String,
+    val type_code: String,
+    val type_name: String,
+    val url: String
+)

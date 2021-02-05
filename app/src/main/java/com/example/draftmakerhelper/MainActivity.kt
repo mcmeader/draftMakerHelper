@@ -1,48 +1,35 @@
 package com.example.draftmakerhelper
 
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var displayText: TextView
-    lateinit var textLabel: TextView
-    lateinit var editText: EditText
+    lateinit var staticText: TextView
+    lateinit var cardImage: ImageView
+    lateinit var toggleCore: ToggleButton
+    lateinit var pickWeakness: Button
+    lateinit var progressBar: ProgressBar
+    var coreChecked: Boolean = false
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
 
-        displayText = findViewById(R.id.displayText)
-        editText = findViewById(R.id.editText)
-        textLabel = findViewById(R.id.textLabel)
-        val submitAndNextButton: Button = findViewById(R.id.submitAndNext)
-        val resetButton: Button = findViewById(R.id.resetButton)
+        staticText = findViewById(R.id.staticText)
+        cardImage = findViewById(R.id.cardImage)
+        toggleCore = findViewById(R.id.toggleCore)
+        pickWeakness = findViewById(R.id.pickWeakness)
+        progressBar = findViewById(R.id.progressBar)
 
-
-        val buttonHandler = ButtonHandler()
-
-        submitAndNextButton.setOnClickListener {
-            buttonHandler.buttonClicked(
-                textLabel.visibility == View.VISIBLE,
-                displayText,
-                textLabel,
-                editText
-            )
+        toggleCore.setOnClickListener {
+            coreChecked = !coreChecked
         }
 
-        resetButton.setOnClickListener {
-            buttonHandler.resetButtonClicked(
-                displayText,
-                textLabel,
-                editText
-            )
+        pickWeakness.setOnClickListener {
+            ApiCalls().getWeaknesses(this, coreChecked, cardImage, staticText,progressBar)
         }
-
     }
 }
