@@ -1,0 +1,87 @@
+[
+  {
+    "code": "06005",
+    "name": "Patrice Hathaway",
+    "type_of_investigator": "Either"
+  },
+  {
+    "code": "07005",
+    "name": "Silas Marsh",
+    "type_of_investigator": "Fighter"
+  },
+  {
+    "code": "90017",
+    "name": "Agnes Baker",
+    "type_of_investigator": "Fighter"
+  },
+  {
+    "code": "08010",
+    "name": "Lily Chen",
+    "type_of_investigator": "Fighter"
+  },
+  {
+    "code": "03006",
+    "name": "Alternate Lola Hayes",
+    "type_of_investigator": "Either"
+  },
+  {
+    "code": "90017",
+    "name": "Alternate Agnes Baker",
+    "type_of_investigator": "Fighter"
+  },
+  {
+    "code": "08016",
+    "name": "Bob Jenkins",
+    "type_of_investigator": "Cluever"
+  },
+  {
+    "code": "05005",
+    "name": "Rita Young",
+    "type_of_investigator": "Fighter"
+  },
+  {
+    "code": "05006",
+    "name": "Marie Lambeau",
+    "type_of_investigator": "Cluever"
+  },
+  {
+    "code": "02002",
+    "name": "Rex Murphy",
+    "type_of_investigator": "Cluever"
+  },
+  {
+    "code": "90001",
+    "name": "Daisy Walker",
+    "type_of_investigator": "Cluever"
+  },
+  {
+    "code": "90037",
+    "name": "Alternate Wendy Adams",
+    "type_of_investigator": "Cluever"
+  },
+  {
+    "code": "02004",
+    "name": "Jim Culver",
+    "type_of_investigator": "Either"
+  },
+  {
+    "code": "07002",
+    "name": "Amanda Sharpe",
+    "type_of_investigator": "Cluever"
+  },
+  {
+    "code": "08007",
+    "name": "Monterey Jack",
+    "type_of_investigator": "Cluever"
+  },
+  {
+    "code": "98019",
+    "name": "Gloria Goldberg",
+    "type_of_investigator": "Cluever"
+  },
+  {
+    "code": "90008",
+    "name": "Alternate Skids O'Toole",
+    "type_of_investigator": "Either"
+  }
+]
