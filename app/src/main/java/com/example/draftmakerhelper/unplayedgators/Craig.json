@@ -2,86 +2,103 @@
   {
     "code": "06005",
     "name": "Patrice Hathaway",
-    "type_of_investigator": "Either"
+    "type_of_investigator": "Either",
+    "faction": "Survivor"
   },
   {
     "code": "07005",
     "name": "Silas Marsh",
-    "type_of_investigator": "Fighter"
+    "type_of_investigator": "Fighter",
+    "faction": "Survivor"
   },
   {
     "code": "90017",
     "name": "Agnes Baker",
-    "type_of_investigator": "Fighter"
+    "type_of_investigator": "Fighter",
+    "faction": "Mystic"
   },
   {
     "code": "08010",
     "name": "Lily Chen",
-    "type_of_investigator": "Fighter"
+    "type_of_investigator": "Fighter",
+    "faction": "Guardian"
   },
   {
     "code": "03006",
     "name": "Alternate Lola Hayes",
-    "type_of_investigator": "Either"
+    "type_of_investigator": "Either",
+    "faction": "Neutral"
   },
   {
     "code": "90017",
     "name": "Alternate Agnes Baker",
-    "type_of_investigator": "Fighter"
+    "type_of_investigator": "Fighter",
+    "faction": "Mystic"
   },
   {
     "code": "08016",
     "name": "Bob Jenkins",
-    "type_of_investigator": "Cluever"
+    "type_of_investigator": "Cluever",
+    "faction": "Rouge"
   },
   {
     "code": "05005",
     "name": "Rita Young",
-    "type_of_investigator": "Fighter"
+    "type_of_investigator": "Fighter",
+    "faction": "Survivor"
   },
   {
     "code": "05006",
     "name": "Marie Lambeau",
-    "type_of_investigator": "Cluever"
+    "type_of_investigator": "Cluever",
+    "faction": "Mystic"
   },
   {
     "code": "02002",
     "name": "Rex Murphy",
-    "type_of_investigator": "Cluever"
+    "type_of_investigator": "Cluever",
+    "faction": "Seeker"
   },
   {
     "code": "90001",
-    "name": "Daisy Walker",
-    "type_of_investigator": "Cluever"
+    "name": "Alternate Daisy Walker",
+    "type_of_investigator": "Cluever",
+    "faction": "Seeker"
   },
   {
     "code": "90037",
     "name": "Alternate Wendy Adams",
-    "type_of_investigator": "Cluever"
+    "type_of_investigator": "Cluever",
+    "faction": "Survivor"
   },
   {
     "code": "02004",
     "name": "Jim Culver",
-    "type_of_investigator": "Either"
+    "type_of_investigator": "Either",
+    "faction": "Mystic"
   },
   {
     "code": "07002",
     "name": "Amanda Sharpe",
-    "type_of_investigator": "Cluever"
+    "type_of_investigator": "Cluever",
+    "faction": "Seeker"
   },
   {
     "code": "08007",
     "name": "Monterey Jack",
-    "type_of_investigator": "Cluever"
+    "type_of_investigator": "Cluever",
+    "faction": "Seeker"
   },
   {
     "code": "98019",
     "name": "Gloria Goldberg",
-    "type_of_investigator": "Cluever"
+    "type_of_investigator": "Cluever",
+    "faction": "Mystic"
   },
   {
     "code": "90008",
     "name": "Alternate Skids O'Toole",
-    "type_of_investigator": "Either"
+    "type_of_investigator": "Either",
+    "faction": "Rouge"
   }
 ]

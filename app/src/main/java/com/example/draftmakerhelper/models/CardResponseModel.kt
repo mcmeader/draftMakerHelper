@@ -1,6 +1,6 @@
 package com.example.draftmakerhelper.models
 
-data class WeaknessCardModel(
+data class CardResponseModel(
     val clues_fixed: Boolean,
     val code: String,
     val deck_limit: Int,
