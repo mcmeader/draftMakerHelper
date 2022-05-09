@@ -5,12 +5,14 @@
     "type_of_investigator": "Fighter",
     "faction": "Guardian"
   },
+
   {
     "code": "04001",
     "name": "Leo Anderson",
     "type_of_investigator": "Fighter",
     "faction": "Guardian"
   },
+
   {
     "code": "06001",
     "name": "Tommy Muldoon",
@@ -162,12 +164,6 @@
     "faction": "Seeker"
   },
   {
-    "code": "60201",
-    "name": "Harvey Walters",
-    "type_of_investigator": "Cluever",
-    "faction": "Seeker"
-  },
-  {
     "code": "90037",
     "name": "Wendy Adams",
     "type_of_investigator": "Cluever",
@@ -204,3 +200,5 @@
     "faction": "Rouge"
   }
 ]
+
+33
